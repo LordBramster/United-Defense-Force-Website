@@ -1,6 +1,6 @@
 Thanks for downloading this template!
 
-Template Name: TheEvent
-Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+Template Name: Regna
+Template URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
 Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/

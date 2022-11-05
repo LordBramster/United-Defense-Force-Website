@@ -1,1 +1,1 @@
-The .scss (Sass) files are only avilable in the pro version. You can buy it from: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
+The .scss (Sass) files are only avilable in the pro version. You can buy it from: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/

@@ -94,7 +94,8 @@ h6 {
   height: 90px;
   transition: all 0.5s;
   z-index: 997;
-  background: rgba(52, 59, 64, 0.9);
+  background: rgba(38, 53, 65, 0.9);
+  /*background: rgba(52, 59, 64, 0.9);*/
 }
 
 #header #logo h1 {
@@ -122,7 +123,8 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(52, 59, 64, 0.9);
+  background: rgba(38, 53, 65, 0.9);
+  /*background: rgba(52, 59, 64, 0.9);*/
   height: 70px;
   transition: all 0.5s;
 }
@@ -459,7 +461,7 @@ h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Poppins", sans-serif;
+  font-family: "Share Tech Mono", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -469,8 +471,12 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
+  border: 2px solid #d37937;
+  color: #fff;
+  /*
   border: 2px solid #fff;
   color: #fff;
+  */
 }
 
 #hero .btn-get-started:hover {
@@ -561,8 +567,10 @@ section {
 /* About Us Section
 --------------------------------*/
 #about {
-  /*background: #fff;*/
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/call-to-action-bg.png) fixed center center;
+  /*background: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/call-to-action-bg.png) fixed center center;
+  */
+  background: linear-gradient(rgb(38, 53, 65), rgba(0, 0, 0, 0.6)), url(../img/call-to-action-bg.png) fixed center center;
   padding: 80px 0;
 }
 
@@ -578,7 +586,8 @@ section {
 }
 
 #about .about-container .title {
-  color: #333;
+  color: #d8d8d8;
+  /* color: #333; */
   font-weight: 700;
   font-size: 32px;
 }
@@ -659,7 +668,7 @@ section {
 #facts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Share Tech Mono", sans-serif;
   font-size: 14px;
 }
 
@@ -770,7 +779,7 @@ section {
 }
 
 #call-to-action .cta-btn {
-  font-family: "Poppins", sans-serif;
+  font-family: "Share Tech Mono", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -780,8 +789,12 @@ section {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
+  border: 2px solid #d37937;
+  color: #fff;
+  /*
   border: 2px solid #fff;
   color: #fff;
+  */
 }
 
 #call-to-action .cta-btn:hover {
@@ -954,6 +967,12 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+}
+
+.portfolio-details .portfolio-description .warning {
+  padding: 0;
+  color: #e40b0b;
+  font-style: italic;
 }
 
 /* Team Section

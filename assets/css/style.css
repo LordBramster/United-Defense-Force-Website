@@ -643,7 +643,8 @@ section {
 }
 
 #about .about-container .icon-box .title a {
-  color: #111;
+  color: #d37937;
+  /*color: #111;*/
 }
 
 #about .about-container .icon-box .description {
